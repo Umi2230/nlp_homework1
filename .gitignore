@@ -1,0 +1,17 @@
+# Python 與 Notebook 暫存
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# 本機環境與機密設定
+.venv/
+venv/
+.env
+.env.*
+
+# 中途訓練檢查點
+**/checkpoint-*/
+
+# 可重新產生的訓練參數檔
+**/training_args.bin
+
